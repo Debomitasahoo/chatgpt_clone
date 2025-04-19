@@ -88,13 +88,13 @@ Follow these steps to create and deploy your own version of this application:
 11. **Clean Up (Optional):** You can now delete the `node_modules` folder and the `.env.local` file as the API key will be configured in Vercel.
 
 12. **Push to GitHub:**
-    * Create a new repository on GitHub named `Chatting`.
+    * Create a new repository on GitHub named **`chatgpt_clone`**.
     * Upload the contents of your **`my-app`** folder to this repository. You can do this by dragging and dropping the folder into the GitHub web interface or by using Git commands as shown in the video you followed.
 
 13. **Deploy to Vercel:**
     * Create an account on the Vercel platform.
     * Connect your GitHub account to Vercel.
-    * Create a new project in Vercel and select your `Chatting` repository.
+    * Create a new project in Vercel and select your **`chatgpt_clone`** repository.
     * **Important:** When configuring the project in Vercel, make sure you select the **`my-app`** folder as the root directory for deployment. Also, ensure the framework is set to **Next.js**.
     * Add your Google AI Studio API key as an environment variable in your Vercel project settings. The key should be named `GOOGLE_GENERATIVE_AI_API_KEY` and the value should be your actual API key.
 
